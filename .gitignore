@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos y modelos generados
+data/
+datasets/
+models/
+checkpoints/
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.safetensors
+
+# Machine learning y experimentos
+mlruns/
+wandb/
+tensorboard/
+lightning_logs/
+
+# IDE y sistema
+.vscode/
+.idea/
+.DS_Store
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.swp
